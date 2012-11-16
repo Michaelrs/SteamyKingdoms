@@ -2,13 +2,13 @@ package net.thesteamfurnace.Kingdom.Buildings;
 
 import org.bukkit.Location;
 
-public class Building {
+public abstract class Building {
 	String owner;
 	int level;
 	
 	
 	public Building(){
-		// TODO
+		// TODO Initiate the Building object
 	}
 	
 	public int getLevel(){
@@ -17,6 +17,14 @@ public class Building {
 	
 	public String getOwner(){
 		return owner;
+	}
+	
+	public void Rebuild(){
+		//TODO rebuild function (refresh the schematic and repaste it)
+	}
+	
+	public void Destroy(){
+		//TODO destroy the building
 	}
 	
 	
