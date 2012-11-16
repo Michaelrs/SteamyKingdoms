@@ -10,6 +10,16 @@ public class SteamyKingdoms extends JavaPlugin{
 
 	}
 	
+	@Override
+	public void onEnable(){
+		//TODO
+	}
+	
+	@Override
+	public void onDisable(){
+		//TODO
+	}
+	
 	public static SteamyKingdoms getPlugin(){
 		return (SteamyKingdoms) Bukkit.getPluginManager().getPlugin("SteamyKingdoms");
 	}
