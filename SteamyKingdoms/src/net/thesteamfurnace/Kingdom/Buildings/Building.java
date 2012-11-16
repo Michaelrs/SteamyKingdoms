@@ -5,7 +5,6 @@ import org.bukkit.Location;
 public class Building {
 	String owner;
 	int level;
-	Location cornertile;
 	
 	
 	public Building(){
@@ -20,9 +19,6 @@ public class Building {
 		return owner;
 	}
 	
-	public Location getCornerTile(){
-		return cornertile;
-	}
 	
 	
 	
