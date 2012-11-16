@@ -3,7 +3,7 @@ package net.thesteamfurnace.Kingdom.Buildings;
 import org.bukkit.Material;
 import org.bukkit.inventory.Inventory;
 
-public class Farm {
+public class Farm extends Building{
 	private Material crop;
 	private Inventory inventory;
 	
