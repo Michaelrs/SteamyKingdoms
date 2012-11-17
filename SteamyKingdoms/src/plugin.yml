@@ -1,0 +1,12 @@
+## YAML Template.
+---
+name: SteamyKingdoms
+version: 0.1
+author: IvanTheBuilder
+main: net.thesteamfurnace.Kingdom.SteamyKingdoms
+depend: [WorldEdit]
+commands:
+  test:
+  
+  
+

@@ -36,7 +36,7 @@ public class Schematic {
 	
 	public Schematic(String fileName) throws IOException{
 		//BE AWARE OF THIS NEXT LINE!
-		String prefix = SteamyKingdoms.getPlugin().getDataFolder().getAbsolutePath()+File.separator+"schematics"+File.separator;
+		String prefix = SteamyKingdoms.getPlugin().getDataFolder().getAbsolutePath()+File.separator+"schematics"+File.separator+"house.schematic";
 		byte[] uGD;
 		try{
 			 uGD = file_get_contents(prefix+fileName+".schematic");
