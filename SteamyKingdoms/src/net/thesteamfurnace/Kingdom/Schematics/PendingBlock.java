@@ -18,6 +18,12 @@ public class PendingBlock {
 		this.data = data;
 	}
 	
+	public boolean AlreadyPlaced(){
+		if(block.getTypeId() == material && block.getData() == data)
+			return true;
+		return false;
+	}
+	
 	public boolean Place(){
 		if(block == null)
 			return false;

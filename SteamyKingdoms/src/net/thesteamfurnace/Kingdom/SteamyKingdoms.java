@@ -49,7 +49,7 @@ public class SteamyKingdoms extends JavaPlugin{
     	   String prefix = SteamyKingdoms.getPlugin().getDataFolder().getAbsolutePath()+File.separator+"schematics"+File.separator+"house.schematic";
     	   File file = new File(prefix);
     	   SchematicFormat f = SchematicFormat.getFormat(file);
-    	   new BuildingBuilder(file,this, player.getLocation());
+    	   new BuildingBuilder(file,this, player.getLocation(),true);
     	   try {
 			BaseBlock block = f.load(file).getPoint(new Vector(0,0,0));
 			sender.sendMessage(ChatColor.RED+" ID = "+block.getType());

@@ -8,5 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Ivan/Desktop/WorldEdit.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7"/>
+	<classpathentry kind="lib" path="C:/Users/Ivan/Desktop/bukkit/plugins/Citizens (1).jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

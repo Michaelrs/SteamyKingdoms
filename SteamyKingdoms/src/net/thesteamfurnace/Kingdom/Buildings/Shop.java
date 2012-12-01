@@ -1,5 +1,8 @@
 package net.thesteamfurnace.Kingdom.Buildings;
 
+import net.citizensnpcs.api.CitizensAPI;
+
+import org.bukkit.entity.EntityType;
 import org.bukkit.inventory.Inventory;
 
 public class Shop extends Building {
@@ -12,6 +15,10 @@ public class Shop extends Building {
 
 	public Inventory getBuyingInventory() {
 		return BuyingInventory;
+	}
+	
+	public Shop(){
+		CitizensAPI.getNPCRegistry().createNPC(EntityType.PLAYER, arg1)
 	}
 	
 	
